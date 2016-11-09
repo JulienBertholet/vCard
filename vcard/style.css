@@ -1,0 +1,120 @@
+body{
+	background-color: #FAFAFA;
+}
+
+.name{
+	position: absolute;
+	top: 50%;
+	margin-top: -240px;
+	margin-left: 400px;
+}
+
+.bg{
+	float:right;
+	display: inline-block;
+}
+
+.para{
+	font-family: 'Raleway';
+	width: 325px;
+	position: absolute;
+	top: 50%;
+	margin-left: 650px;
+	padding-left: 40px;
+	margin-top: -200px;
+	text-align: left;
+	border-left: double;
+	border-color: #646C79;
+}
+
+.bglines{
+	position: absolute;
+	top: 50%;
+	margin-left: 720px;
+	margin-top: -275px;
+
+}
+
+.bglines hover{
+	size: 125%;
+}
+
+
+
+ 
+.article_big_img {
+	width: 500px;
+	height: 600px;
+	overflow: hidden;
+	padding: 2px;
+	margin-left: -140px;
+}
+ 
+.article_big_img > img {
+	width: 500px;
+	height: 600px;
+	transition: all 1s;
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
+}
+ 
+.zoomarticle:hover > .article_big_img > img {
+	transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+}
+
+.clic{
+	max-width: 50px;
+	width: 50px;
+}
+
+.icon{
+	list-style: none;
+	float: right;
+}
+
+.icon__el{
+	margin-right: 45px;
+	margin-bottom: 40px;
+	opacity: .7;
+	margin-top: -240px;
+}
+
+.icon__el:hover{
+	opacity: 1;
+	transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	transition: all 1s;
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
+}
+
+.pintrad{
+	border-radius: 3px;
+}
+
+.main{
+	width: 1270px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.maina{
+	float: left;
+	margin-top: -270px;
+	position: absolute;
+}
+
+.mainb{
+	float: left;
+	margin-top: -520px;
+	position: absolute;
+}
